@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon-user">
+                <i class="fa-solid fa-user-circle"></i>
+            </div>
+
+            <div class="search">
+                <input type="search" placeholder="Search Here">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="nav hidden" id="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="icon-menu">
+                <i class="fa-solid fa-bars" id="icon-menu"></i>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <h2>Login to your account</h2>
+
+                <div class="input-group">
+                    <input type="text" placeholder="User Name">
+                    <input type="password" placeholder="Password" id="password" required>
+
+                    <span>
+                        don't have an account yet? <a href="#">Register</a>
+                    </span>
+                </div>
+
+                <div class="icon-input">
+                    <i class="fa-solid fa-user-circle"></i>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <i class="fa-solid fa-eye-slash" id="eye"></i>
+
+                <button type="button">Login</button>
+
+                <div class="or">
+                    <span>------OR------</span>
+                    <p>Login as a guest</p>
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2024 Aldhivo , hak cipta dilindungi undang-undang</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
